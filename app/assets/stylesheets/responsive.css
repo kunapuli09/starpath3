@@ -1,0 +1,99 @@
+/*
+ * Responsive changes
+ * 
+ *   1.   @media (max-width: 1200px)
+ * 
+ *   2.   @media (min-width: 979px)
+ * 
+ *   3.   @media (min-width: 768px) and (max-width: 979px)
+ * 
+ *   4.   @media (max-width: 767px)
+ * 
+ *   5.   @media (max-width: 480px) 
+ * 
+ */
+ @media (max-width: 1200px) {
+	#home .title_home {margin: 50px 0 0;}
+    #services .content_section .span3{text-align: center;}
+    #services .content_section .span3 img{float: none; text-align: center;margin: 0;}
+    #services .content_section .services_with_background .span3 img{float: left; margin: 20px 20px 160px 0px;}
+	#portfolio_container div.box .thumbText h3 {font-size:22px;}
+	#portfolio_container div.box .thumbText p {font-size:13px; line-height:16px;}
+ }
+ 
+@media (max-width: 979px) {
+	
+	#home .title_home span {font-size: 50px;}
+    #portfolio div.box{width: 33.2% !important;}
+    #services .content_section .span3 img{float: none; text-align: center;margin: 0;}
+    #services .content_section .services_with_background .span3 img{float: none; text-align: center;margin: 0;}
+    #steps{width: 100%;}
+    #steps .step_breaker{width: 40px;}
+	header .span4 {width:100%;}
+	header .span8 {width:100%;}
+	.navmenu{float: none; margin-top:50px !important;}
+	#logo{float: none; text-align: center}
+	#wrapper_top header{height: 160px;}
+	header div.container{text-align: center;}
+	.footer {padding-left:20px;padding-right:20px;}
+
+}
+@media (max-width: 767px) {
+	#home header div.container h1 {font-size: 38px; line-height:62px;}
+	#home .title_home span {font-size: 32px; line-height: 56px;}
+	#home .btn_home {margin: 25px 0 30px;}
+    #wrapper_top{position: relative;}
+    #wrapper_top header{height: 160px;}
+    .navmenu{float: none; margin-top:50px !important;}
+    h1 { font-size: 48px; }
+    .layer,#GoogleMaps, #wrapper_top .layer_up{ display: none; }
+    #logo{float: none; text-align: center}
+    #home header{height: 285px;}
+    #home, #home header div.container h1{margin-top: 0; padding-top: 0px;}
+    #home header img.bakground_image{margin-top: 160px;}
+    #services div.row div.span3{margin-top: 24px;}
+    header div.container{text-align: center;} 
+    #steps{width: 100%;}
+    .step{width: 50%; }
+    .step_breaker{display: none;}
+    #portfolio div.box{width: 49.9% !important;}
+	
+}
+@media (max-width: 500px) {
+    nav select { width: 253px; display: block !important; font-size: 20px; height: 40px; margin: 0 auto;}
+    nav ul, .layer,#GoogleMaps, #wrapper_top .layer_up{ display: none !important; }
+}
+@media (max-width: 480px) {
+	#home .title_home {margin: 75px 0 0;}
+	#home header div.container h1 {font-size: 38px;}
+	#home .title_home span {font-size: 26px; line-height: 36px; padding: 0 10px;}
+	#home .btn_home {margin: 25px 0 30px;}
+    #wrapper_top{position: relative;}
+    #wrapper_top header{height: 160px;}
+    .navmenu{float: none;}
+    nav select { width: 253px; display: block !important; font-size: 20px; height: 40px; margin: 0 auto;}
+    h1 { font-size: 48px; }
+    nav ul, .layer,#GoogleMaps, #wrapper_top .layer_up{ display: none !important; }
+    #logo{float: none; text-align: center}
+    #home header{height: 310px;}
+    #home, #home header div.container h1{margin-top: 0; padding-top: 0;}
+    #home header img.bakground_image{margin-top: 160px;}
+    #services div.row div.span3{margin-top: 24px;}
+    header div.container{text-align: center;} 
+    #about header div.container h1,  #home header div.container h1,  #services header div.container h1,  #portfolio header div.container h1,  #contact header div.container h1{font-size: 45px;}
+    #home .home_slider_info{display: none;}
+    #steps{width: 100%;}
+    .step{width: 100%; float: none;}
+    .step_breaker{display: none;}
+    #portfolio div.box{width: 49.9% !important;}
+   
+}
+@media (max-width: 340px) {
+	#home .title_home {margin: 30px 0 0;}
+	#home header div.container h1 {font-size: 36px;}
+	#home .title_home span {font-size: 24px; line-height: 32px; padding: 0 10px;}
+	#home .btn_home {margin: 25px 0 30px;}
+	#portfolio_container div.box .thumbText h3 {font-size:18px; padding-top: 0px; margin-top:-5px;}
+	#portfolio_container div.box .thumbText p {font-size: 12px;line-height: 14px;}
+   
+}
